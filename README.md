@@ -23,7 +23,7 @@ No frameworks, no JS libraries — just plain HTML and CSS to focus on layout an
 
 ## Live demo
 
-Not deployed yet. Will add the GitHub Pages link here once it's up.
+https://shivamsingh-net.github.io/Insect-Classifier/
 
 ## Preview
 <img width="957" height="479" alt="Screenshot 2026-09-21 154935" src="https://github.com/user-attachments/assets/784569f2-c651-48b1-9512-b7f98e4f5e76" />
