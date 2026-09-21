@@ -1,0 +1,259 @@
+@font-face {
+    font-family: font;
+    src: url(./Syncopate-Regular.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+#right{
+    height: 100%;
+    width: 100%;
+    /* background-color: #fff; */
+}
+#right #top{
+ display: flex;
+ width: 100%;
+ gap: 120px;
+ padding-top: 40px;
+ padding-left: 40px;
+}
+#name h3{
+    width: 90px;
+    font-size: 25px;
+    font-family: font;
+
+}
+#search{
+    height: 30px;
+    width: 260px;
+    gap: 30px;
+    padding-left: 17px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(231, 230, 230, 0.438);
+}
+#search h3{
+    color: rgba(0, 0, 0, 0.511);
+    font-size: 10px;
+    font-family: font;
+}
+i{
+    font-size: 17px;
+}
+#bt{
+    position: relative;
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ margin-top: 90px;
+
+}
+p{
+    font-size: 10px;
+    line-height: 25px;
+    font-weight: 300;
+}
+ #list1, #list2, #list3, #list4, #list5, #list6{
+    font-size: 21px;
+    margin-top: 10px;
+    width: 20%;
+    border-bottom: 1px solid rgb(184, 182, 182);
+}
+li{
+    color: red;
+}
+span{
+    color: black;
+    font-family: font;
+}
+#side{
+    position: absolute;
+    top: 330px;
+    left: -10px;
+    rotate: calc(270deg);
+   font-family: cursive;
+}
+#side h3{
+    font-family: font;
+    font-size: 29px;
+}
+#left{
+    height: 100%;
+    width: 100%;
+    background-color: #BE3E32;
+}
+#top2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 55px;
+    padding-top: 40px;
+    color: #DABC92;
+}
+#top2 h3{
+    font-weight: 400;
+    font-size: 13px;
+    font-family: font;
+    cursor: pointer;
+}
+#details #tp{
+ height: 150px;
+ width: 100%;
+}
+#details #tp h3{
+color: white;
+font-family: font;
+font-size: 33px;
+text-align: center;
+padding-top: 60px;
+}
+ #fe{
+    height: 200px;
+    width: 100%;
+    display: flex;
+}
+ #fe #left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+ #fe #left #pic{
+    height: 80px;
+    margin-left: 140px;
+    padding: 30px;
+    border-right: 1px solid white;
+    background-image: url(./Pachyteria\ equestris.png);
+    background-size: contain;
+
+ }
+#fe #left h3{
+    margin-left: 140px;
+    font-size: 13px;
+    color: white;
+    padding-top: 10px;
+    font-weight: 300;
+  }
+ #fe #right{
+padding-top: 50px;
+}
+#fe #right #one{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 12px;
+}
+ #right #one h3{
+    font-size: 14px;
+font-weight: 300;
+ }
+#fe #right #two{
+    padding-top: 10px;
+    color: white;
+      display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 12px;
+}
+#right #two h3{
+    font-size: 14px;
+font-weight: 300;
+ }
+#fe #right #three{
+    padding-top: 10px;
+    color: white;
+      display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 12px;
+}
+#right #three h3{
+    font-size: 14px;
+font-weight: 300;
+ }
+
+#fe #right i{
+    font-size: 26px;
+    color: #DABC92;
+}
+h1{
+    padding-left: 220px;
+    padding-top: 25px;
+    color: #DABC92;
+    font-size: 26px;
+    padding-bottom: 10px;
+}
+#last{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+#alert1{
+    color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 20px;
+
+}
+#alert1 h3{
+font-size: 14px;
+font-weight: 300;
+}
+#alert2{
+    color: white;
+    padding-right: 53px;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 20px;
+font-size: 12px;
+}
+#alert2 h3{
+font-size: 14px;
+font-weight: 300;
+}
+#alert1 i{
+    cursor: pointer;
+    font-size: 26px;
+    color: white;
+}
+#alert2 i{
+    cursor: pointer;
+    font-size: 26px;
+    color: white;
+}
+button{
+    margin-left: 220px;
+    font-size: 12px;
+    padding: 9px 20px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 30px;
+    background-color: #DABC92;
+    font-family: font;
+    cursor: pointer;
+
+}
+img{
+  position: absolute;
+  height: 430px;
+  top: 130px;
+  left: 39.5%;
+}
